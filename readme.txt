@@ -31,3 +31,7 @@ Dopo la fine del ciclo imposto la variabile nextSlide che mi andrà a aggiungere
 
 MILESTONE 3
 Dimenticato di inserire i button. Inserisco i bottoni "previous" e "next" e definisco la funzione sull'eventListener, che dovrà mandare avanti le slide, cambiando ovviamente l'index e spostando la classe "active".
+
+MILESTONE 4
+Imposto il buttone prev con la stessa funzione del button next, cambiando il valore di next slide da +1 a -1.
+Da fixare il ritorno indietro da 0 a 3.
