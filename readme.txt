@@ -23,3 +23,11 @@ Creato un main, in cui dentro inizio con il creare una section in cui dovrò met
 Dentro la section avrò due contenitori, uno per il titolo l'altro per il carrosello.
 Il carrosorello sarà composto da 4 slide, di cui se ne vedrà solo una.
 I bottoni per cambiare slide andranno sotto o nel caso in positionabsolute sulle slide.(da definire)
+
+MILESTONE 2
+Ho impostato l'array contenente le slide, dopodichè imposto le variabili che andranno a modificare le slide (imgActive e nextSlide).
+Imposto il ciclo in modo che la costante X corrisponda all'index dell'array slides, in modo che ne vai giri del ciclo, esso mi riconosca gli elementi di array e mi rimuova la classe css "active".
+Dopo la fine del ciclo imposto la variabile nextSlide che mi andrà a aggiungere la classe "active" alla slide che verrà resa visibile.
+
+MILESTONE 3
+Dimenticato di inserire i button. Inserisco i bottoni "previous" e "next" e definisco la funzione sull'eventListener, che dovrà mandare avanti le slide, cambiando ovviamente l'index e spostando la classe "active".
