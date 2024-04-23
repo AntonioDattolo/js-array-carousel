@@ -1,7 +1,7 @@
 .slide{
     object-fit: contain;
     display: none;
-    padding: auto 50rem;
+    
 }
 
 .active{
