@@ -50,8 +50,8 @@ document.getElementById("prev").addEventListener ( "click" , function() {
     nextSlide = imgActive - 1;
 
     // Arrivato a fine slide mi serve un reset? SI!
-    if(nextSlide >= slides.length){
-        nextSlide = 0 ;
+    if(nextSlide < 0){
+        nextSlide = 0 + 3 ;
     }
     slides[nextSlide].classList.add("active");
     console.log(nextSlide);
